@@ -17,7 +17,8 @@ public class JavaApplication2 {
         int a = 50 ;
         int b = 60 ;
         System.out.println("tonoy");
-        System.err.println("mabruk hossen fahim");
+        System.out.println("mabruk hossen fahim");
+        System.out.println("rafsan ahmed");
         System.out.println(a+b);
     }
     
