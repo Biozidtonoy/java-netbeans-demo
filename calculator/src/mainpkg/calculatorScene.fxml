@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.CalculatorSceneController">
+   <children>
+      <Label layoutX="159.0" layoutY="68.0" prefHeight="40.0" prefWidth="74.0" text="number 1" />
+      <Label layoutX="322.0" layoutY="73.0" prefHeight="30.0" prefWidth="62.0" text="number 2" />
+      <TextField fx:id="numOneTextField" layoutX="115.0" layoutY="108.0" />
+      <TextField fx:id="numTwoTextField" layoutX="300.0" layoutY="108.0" />
+      <Button layoutX="164.0" layoutY="175.0" mnemonicParsing="false" onAction="#addButton" text="add" />
+      <Button layoutX="349.0" layoutY="175.0" mnemonicParsing="false" onAction="#multiplyButton" text="multiply" />
+      <TextField fx:id="outputTextField" layoutX="216.0" layoutY="273.0" />
+      <Label layoutX="248.0" layoutY="225.0" prefHeight="40.0" prefWidth="74.0" text="     result" />
+      <Button layoutX="265.0" layoutY="319.0" mnemonicParsing="false" onAction="#clearbutton" text="clear" />
+   </children>
+</AnchorPane>
